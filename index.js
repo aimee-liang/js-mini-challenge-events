@@ -57,7 +57,10 @@ changeColor()
 
 /***** Deliverable 2 *****/
 
+document.addEventListener
 
+
+// renderPlayer()
 
 /***** Deliverable 3 *****/
 // const likesIncrease = document.getElementsByClassName("player");
