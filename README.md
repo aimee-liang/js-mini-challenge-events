@@ -26,6 +26,8 @@ Once you have it working in the console, write an event listener that will use t
 
 **YOUR NOTES**
 ```
+Be sure to use getElementById to find the h1 tag and more specifically the id Header.
+From there, I assigned it as the value of a constant and had a conditional inside my function that if the target of the event is strictly equal to this constant, the helper method toggleColor should be invoked.
 
 ```
 
