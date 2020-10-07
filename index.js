@@ -42,7 +42,7 @@ function toggleColor(element) {
 
 function changeColor(){
   
-  const changeMe = document.querySelector("header");
+  const changeMe = document.getElementById("header");
 
   document.addEventListener('click', function(e){
     if (e.target === changeMe){
