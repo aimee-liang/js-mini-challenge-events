@@ -40,7 +40,33 @@ function toggleColor(element) {
   }
 }
 
+function changeColor(){
+  
+  const changeMe = document.querySelector("header");
+
+  document.addEventListener('click', function(e){
+    if (e.target === changeMe){
+      toggleColor(changeMe);
+    }
+    else 
+      console.log ("This isn't working")
+  })
+}
+
+changeColor()
 
 /***** Deliverable 2 *****/
 
+
+
 /***** Deliverable 3 *****/
+// const likesIncrease = document.getElementsByClassName("player");
+// let likesClass = document.querySelectorAll("likes");
+
+// likesIncrease.addEventListener('click', event => {
+//   // set some variable to the p class likes
+//   if (event.target.className = "like-button"){
+//     // the p class likes should increase
+//     likesClass ++;
+//   }
+// })
