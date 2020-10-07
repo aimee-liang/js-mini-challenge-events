@@ -57,7 +57,20 @@ changeColor()
 
 /***** Deliverable 2 *****/
 
-document.addEventListener
+function addNewPlayer(){
+  const form = document.getElementById("new-player-form");
+
+  document.addEventListener('submit', function(e){
+    e.preventDefault();
+
+    const number = e.target["number"].value;
+    let numberInput = document.createElement("div");
+    numberInput.textContent = number;
+  })
+
+  // append the new element we create 
+  
+}
 
 
 // renderPlayer()
